@@ -1,20 +1,42 @@
-# EarthquakePrediction
-A Data-Driven Lens into Earthquake Prediction Analysis
+📊 SeismoSpark: Scalable Earthquake Prediction using PySpark
 
-Big Data Course- Spring 2025 NYU Tandon by Dr Amit Patel
+SeismoSpark is a big data-driven earthquake prediction system built using PySpark and machine learning models. The project focuses on processing large-scale seismic data, building predictive models, and evaluating their performance to support data-driven decision-making.
 
-•	Kunaal Vadgama (kv2343)
-•	Nikhil Bhise (nb4053)
-•	Amaan Mithani (am14647)
-
-
-
-To run the code:
-1.	Set up a PySpark environment (locally or on Databricks).
-2.	Load the dataset (earthquakes-1990-2023.csv) into a Spark DataFrame. 
-3.	Follow the pipeline: cleaning → feature engineering → model training → evaluation → visualization.
-4.	Results will include precision, recall, F1 score, accuracy, and confusion matrix per model.
-
-Dataset - https://www.kaggle.com/datasets/alessandrolobello/the-ultimate-earthquake-dataset-from-1990-2023
+🚀 Key Features
+⚡ Distributed Data Processing using PySpark
+📊 Data Preprocessing & Feature Engineering for seismic datasets
+🤖 Machine Learning Models:
+Logistic Regression
+Support Vector Machine (SVM)
+📈 Model Evaluation using accuracy and performance metrics
+🏗️ Scalable Pipeline Design for large datasets
+🛠️ Tech Stack
+Python
+PySpark
+Scikit-learn
+Pandas / NumPy
+Jupyter Notebook
+🧠 Architecture Overview
+Data Ingestion
+Data Cleaning & Transformation
+Feature Engineering
+Model Training (SVM, Logistic Regression)
+Model Evaluation
+📂 Project Structure
+SeismoSpark/
+│── data/               # Dataset files
+│── notebooks/          # Jupyter notebooks
+│── src/                # Core scripts
+│── models/             # Trained models (if any)
+│── README.md
+📈 Results
+Built and evaluated multiple ML models for earthquake prediction
+Demonstrated scalability using PySpark for large datasets
+Compared performance across different algorithms
+🔮 Future Improvements
+Add deep learning models (LSTM, Transformers)
+Real-time data streaming with Spark Streaming
+Deployment as an API
+Visualization dashboard
 
 
